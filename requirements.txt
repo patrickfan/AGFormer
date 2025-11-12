@@ -1,0 +1,6 @@
+# Python version requirement (informational, not enforced by pip)
+# Requires Python >= 3.10
+
+torch>=1.11.0
+scikit-learn==1.2.2
+torch_geometric
