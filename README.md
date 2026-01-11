@@ -1,4 +1,4 @@
-# AdaTrip: AGFormer: Adaptive Spatiotemporal Graph Informed Transformer for Multi-Reservoir Inflow Forecasting
+# AGFormer: Adaptive Spatiotemporal Graph Informed Transformer for Multi-Reservoir Inflow Forecasting
 
 AGFormer is a graph-based spatiotemporal forecasting framework designed to capture basin dynamics through a local--spatial--temporal hierarchy. As illustrated in Figure~\ref{fig:workflow}, the pipeline consists of four sequential stages:
 (i) a shared feature extractor that maps raw inputs to latent node embeddings (local representation),
@@ -11,7 +11,7 @@ The model predicts 7-day ahead reservoir inflow based on 30 days of historical d
 ## Project Structure
 
 ```
-AdaTrip/
+AGFormer/
 ├── main.py                          # Main training script with adaptive graph refinement
 ├── main_adapt.py                    # Enhanced training with adaptive threshold scheduling
 ├── main_w_future_weather.py         # Training with future weather predictions
