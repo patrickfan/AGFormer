@@ -1,10 +1,11 @@
 # AGFormer: Adaptive Spatiotemporal Graph Informed Transformer for Multi-Reservoir Inflow Forecasting
 
 AGFormer is a graph-based spatiotemporal forecasting framework designed to capture basin dynamics through a local--spatial--temporal hierarchy. As illustrated in Figure~\ref{fig:workflow}, the pipeline consists of four sequential stages:
-(i) a shared feature extractor that maps raw inputs to latent node embeddings (local representation),
-(ii) an adaptive graph module that performs message passing to incorporate inter-reservoir context (spatial interaction),
-(iii) a Transformer-based temporal module that models temporal dependencies using the spatially enriched sequences (temporal dynamics),
-(iv) a multi-step forecasting head that outputs $K$-day-ahead inflow predictions.
+
+* (i) a shared feature extractor that maps raw inputs to latent node embeddings (local representation),
+* (ii) an adaptive graph module that performs message passing to incorporate inter-reservoir context (spatial interaction),
+* (iii) a Transformer-based temporal module that models temporal dependencies using the spatially enriched sequences (temporal dynamics),
+* (iv) a multi-step forecasting head that outputs $K$-day-ahead inflow predictions.
 
 The model predicts 7-day ahead reservoir inflow based on 30 days of historical data from multiple interconnected reservoirs.
 
