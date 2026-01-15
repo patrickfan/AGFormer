@@ -157,19 +157,6 @@ logs/
    ```
 
 
-To load and evaluate a trained model:
-
-```python
-# In main.py
-load_checkpoint = True
-checkpoint_time = "202507101845_p"  # Timestamp from checkpoint filename
-```
-
-The script will automatically find the closest matching checkpoint if exact timestamp doesn't exist.
-
-
-
-
 - **Architecture**: Transformer encoder
 - **Key Feature**: Self-attention baseline
 - **File**: `baselines.py`
