@@ -202,8 +202,7 @@ Raw CSV → _preprocess.py → Preprocessed Data → Main Script → Trained Mod
 - Batch size: 4
 
 **Graph Refinement** (main.py):
-- Threshold: 0.3
-- Frequency: Every 4 epochs
+- Threshold: [0.1 0.2 0.3] 
 - Self-loops: Always preserved
 
 
