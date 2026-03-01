@@ -205,4 +205,4 @@ Raw CSV → _preprocess.py → Preprocessed Data → Main Script → Trained Mod
 
 If you use this code, please cite the corresponding paper.
 
-Fan, M., Hu, P., Han, X., Zhang, W., Kang, H., Ning, Y. and Lu, D., 2026. AGFormer: Adaptive Spatiotemporal graph informed transformer for multi-reservoir inflow forecasting. Environmental Modelling & Software, p.106938.
+Fan, M., Hu, P., Han, X., Zhang, W., Kang, H., Ning, Y. and Lu, D., 2026. AGFormer: Adaptive Spatiotemporal graph informed transformer for multi-reservoir inflow forecasting. Environmental Modelling & Software, p.106938. (https://doi-org.ornl.idm.oclc.org/10.1016/j.envsoft.2026.106938) 
